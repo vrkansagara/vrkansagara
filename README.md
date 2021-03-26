@@ -6,7 +6,6 @@ An Open Source Contributor.
 Also I do tweet known as @vrkansagara
 
 - 🔭 I’m currently working on vrkansagara.in blog 
-- 👯 I’m looking to collaborate on vrkansagara.in
 - 🌱 I’m currently learning that what my self can do 😄😄😄
 - 💬 Ask me about #PHP you will find , best practises, performance , and code quality
 - 📫 How to reach me: @vrkansagara
