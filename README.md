@@ -13,6 +13,9 @@ Also I do tweet known as @vrkansagara
 
 > **I answer open source question every day from 19:00-00:00 IST in [the Laminas Slack](https://laminas.slack.com).**
 
+
+[![vrkansagara's github stats](https://github-readme-stats.vercel.app/api?username=vrkansagara)](https://github.com/vrkansagara)
+
 <!--
 **vrkansagara/vrkansagara** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
