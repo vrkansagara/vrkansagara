@@ -20,5 +20,6 @@ Also I do tweet known as @vrkansagara
 **vrkansagara/vrkansagara** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
-
+You find this comment , it mean that you wanted to more about me , I am happy to answer your query. 
+Use https://gist.github.com/vrkansagara/862e1ea96091ddf01d8e3f0786eefae8, This will not bit you.
 -->
