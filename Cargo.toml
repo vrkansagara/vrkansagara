@@ -5,7 +5,7 @@
 [package]
 name = "vrkansagara"
 # version should be notation of semver.org
-version = "0.0.0"
+version = "0.0.1"
 authors = [ "Vallabh Kansagara <vrkansagara@gmail.com>" ]
 edition = "2021"
 license-file = "LICENSE"
@@ -20,7 +20,7 @@ include = ["**/*.rs", "Cargo.toml"]
 publish = true
 
 [lib]
-name = "common"
+name = "vrkansagara"
 path = "src/lib/main.rs"
 
 [profile.dev]
@@ -76,7 +76,6 @@ panic = 'unwind'
 incremental = false
 codegen-units = 16
 rpath = false
-
 
 
 [dependencies]
