@@ -1,0 +1,28 @@
+name: Build and Test Rust Code
+
+on:
+  push:
+    branches: [ "master","develop" ]
+  pull_request:
+    branches: [ "master" ]
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build ( Development )
+      run: cargo build --profile=dev --verbose
+    - name: Run tests ( Testing )
+      run: cargo test --profile=test --verbose
+    - name: Build release ( Staging )
+      run: cargo build --profile=staging --verbose
+    - name: Build release ( Production )
+      run: cargo build --profile=release --verbose
+    - name: Build release  ( Production/CPU=native )
+      run: RUSTFLAGS="-C target-cpu=native" cargo build --profile=release --verbose

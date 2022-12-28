@@ -1,0 +1,82 @@
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+# Build parameters https://doc.rust-lang.org/rustc/codegen-options/index.html
+# Exploring PGO for the Rust compiler https://blog.rust-lang.org/inside-rust/2020/11/11/exploring-pgo-for-the-rust-compiler.html
+
+[package]
+name = "common"
+# version should be notation of semver.org
+version = "0.0.0"
+authors = [ "Vallabh Kansagara <vrkansagara@gmail.com>" ]
+edition = "2021"
+license-file = "LICENSE"
+description = "Common library for @vrkansagara usage"
+documentation = "https://github.com/vrkansagara/common/wiki"
+homepage = "https://github.com/vrkansagara/common/wiki"
+repository = "https://github.com/vrkansagara/common.git"
+keywords = ["vrkansagara","common"]
+readme = "README.md"
+exclude = [".git", ".gitignore","Cargo.lock","README.md",".github"]
+include = ["**/*.rs", "Cargo.toml"]
+publish = true
+
+[lib]
+name = "common"
+path = "src/lib/main.rs"
+
+[profile.dev]
+# 0: no optimizations
+opt-level = 0
+# 2 or true: full debug info
+debug = 2
+strip = "none"
+lto = false
+# "unwind": Unwind the stack upon panic.
+panic = "unwind"
+debug-assertions = true
+incremental = true
+codegen-units = 256
+rpath = false
+
+[profile.test]
+# 2: some optimizations (slightly better optimizations.)
+opt-level = 2
+# 1: line tables only
+debug = 1
+strip = "symbols"
+lto = true
+overflow-checks = true
+
+[profile.staging]
+inherits = "release"
+opt-level = 3
+debug = true
+split-debuginfo = 'off'  # Platform-specific.
+debug-assertions = true
+overflow-checks = true
+strip = "none"
+lto = false
+# abort": Terminate the process upon panic.
+panic = 'abort'
+incremental = false
+codegen-units = 16
+rpath = false
+
+[profile.release]
+#3: all optimizations
+opt-level = 3
+# 0 or false: no debug info at all
+debug = false
+split-debuginfo = 'off'  # Platform-specific.
+debug-assertions = false
+overflow-checks = true
+strip = "debuginfo"
+lto = false
+# "unwind": Unwind the stack upon panic.
+panic = 'unwind'
+incremental = false
+codegen-units = 16
+rpath = false
+
+
+
+[dependencies]
