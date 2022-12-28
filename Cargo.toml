@@ -3,7 +3,7 @@
 # Exploring PGO for the Rust compiler https://blog.rust-lang.org/inside-rust/2020/11/11/exploring-pgo-for-the-rust-compiler.html
 
 [package]
-name = "common"
+name = "vrkansagara"
 # version should be notation of semver.org
 version = "0.0.0"
 authors = [ "Vallabh Kansagara <vrkansagara@gmail.com>" ]
