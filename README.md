@@ -5,10 +5,14 @@
 [![linkedin](https://img.shields.io/badge/Linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vrkansagara/)
 
 🚀 I am a Team Lead  with +8 years of experience specializing in Software Development.
+
 👨‍💻 Experienced with all stages of the development cycle for dynamic Software-Based projects.
+
 🔍 Well-versed in numerous programming languages including Advanced (HTML, CSS), JavaScript, PHP, MySQL, and MongoDB. And frameworks including Zen Framework, Laminas, Core PHP, Laravel, Custom build PHP framework and Magento.
+
 🏗️ Also, have a Strong background in project management methodologies using Agile (Scrum and Kanban) and Waterfall.
 An Open Source Contributor.
+
 Also I do tweet known as @vrkansagara
 
 - 🔭 I’m currently working on vrkansagara.in blog 
