@@ -4,7 +4,7 @@
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/vrkansagara)
 [![linkedin](https://img.shields.io/badge/Linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vrkansagara/)
 
-🚀 I am a Team Lead  with 9+ years of experience specializing in Software Development.
+🚀 I am a Team Lead  with 10+ years of experience specializing in Software Development.
 
 👨‍💻 Experienced with all stages of the development cycle for dynamic Software-Based projects.
 
